@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "gulp": "*",
+    "gulp-babel": "*",
+    "gulp-sourcemaps": "*",
+    "source-map-support": "*"
+  }
+}
