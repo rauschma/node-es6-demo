@@ -14,7 +14,7 @@ gulp.task('babel', function () {
     return gulp.src(paths.es6)
         .pipe(sourcemaps.init())
         .pipe(babel())
-        .pipe(sourcemaps.write({ sourceRoot: paths.sourceRoot }))
+        .pipe(sourcemaps.write('.', { sourceRoot: paths.sourceRoot }))
         .pipe(gulp.dest(paths.es5));
 });
 gulp.task('watch', function() {
