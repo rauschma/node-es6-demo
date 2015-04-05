@@ -1,4 +1,5 @@
-require('source-map-support').install();
+import { install } from 'source-map-support';
+install();
 
 console.log([1,2,3].map(x => x * x));
 
