@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "prepublish": "gulp babel"
+  },
   "devDependencies": {
     "gulp": "*",
     "gulp-babel": "*",
