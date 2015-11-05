@@ -13,7 +13,9 @@ var paths = {
 gulp.task('babel', function () {
     return gulp.src(paths.es6)
         .pipe(sourcemaps.init())
-        .pipe(babel())
+        .pipe(babel({
+            presets: ['es2015']
+        }))
         .pipe(sourcemaps.write('.', { sourceRoot: paths.sourceRoot }))
         .pipe(gulp.dest(paths.es5));
 });

@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "babel-preset-es2015": "*",
     "gulp": "*",
     "gulp-babel": "*",
     "gulp-sourcemaps": "*",
